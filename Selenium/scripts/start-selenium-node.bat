@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="..\..\WebDrivers\chromedriver.exe" -Dwebdriver.gecko.driver="..\..\WebDrivers\geckodriver.exe" -jar "..\selenium-server-standalone-3.13.0.jar" -role node -port 1338 -hub "http://localhost:1337/grid/register"
